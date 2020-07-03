@@ -1,8 +1,13 @@
 {
-  "name": "ppx_examples",
+  "name": "ppx_optional_record",
+   "version": "0.1.0",
   "esy": {
-    "build": "dune build -p #{self.name}"
+    "build": "dune build -p #{self.name}",
+    "release": {
+      "bin": ["ppx_optional_record"]
+    }
   },
+  "license": "MIT",
   "dependencies": {
     "@esy-ocaml/reason": ">= 3.4.0 < 3.6.0",
     "@opam/dune": "*",

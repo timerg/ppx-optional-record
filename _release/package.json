@@ -1,0 +1,7 @@
+{
+  "license": "MIT",
+  "name": "ppx_optional_record",
+  "version": "0.1.0",
+  "scripts": { "postinstall": "node ./esyInstallRelease.js" },
+  "bin": { "ppx_optional_record": "bin/ppx_optional_record" }
+}
